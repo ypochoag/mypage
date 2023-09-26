@@ -1,0 +1,166 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*------header------*/
+header{
+    width: 100%;
+    color: #eeeeee; 
+    background-color:rgb(170, 113, 207); 
+    font-family: Arial; 
+    font-size: 16px; 
+    margin: 1px;
+    padding: 30px;  
+    display: flex;  
+    justify-content: space-between; 
+    align-content: center;
+}
+
+.ListaInicio{
+    display: flex;
+    justify-content: left;
+}
+
+.ListaInicio ul{
+    display: flex;
+    font-size: 0.813rem;
+    font-weight: 500;        
+    gap:1.75rem;
+    line-height: 176.1%;
+    list-style: none;   
+    font-size: 20px; 
+}
+
+header nav ul li a:hover{
+    color: rgb(250, 215, 245);
+}
+
+/*------main------*/
+main{
+    width: 100%;
+    background-color: rgb(230, 230, 230); 
+    font-family: Arial; 
+    font-size: 20px; 
+    margin: 1px;
+    padding: 50px 20px 20px 20px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.acercademi{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+h2{
+    color: rgb(78, 38, 90);
+    margin-top: 30px; 
+    margin-bottom: 25px;
+    padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color: #22211f;
+    margin: 1px;
+    padding-bottom: 20px;
+}
+
+img{
+    border: 1px solid rgb(224, 214, 214);
+    height: 200px;
+}
+
+#perfil2{
+    padding-top: 20px;
+    width: 1300px;
+    height: 400px;
+}
+
+.cartas{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 50px ;
+}
+
+.carta img{
+    width: 100%;
+    margin: 2px;
+    border-radius: 30px;
+} 
+
+.carta h4{
+    color: rgb(26, 87, 87);
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align: left;
+}
+
+.carta p{
+    color: rgb(22, 28, 110);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carta a{
+    color: rgb(58, 8, 82);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*------footer------*/
+
+footer{
+    width: 100%;
+    color: #110320; 
+    background-color: rgb(214, 193, 228); 
+    font-family: Arial; 
+    font-size: 12px; 
+    margin: 1px;
+    padding: 30px; 
+}
+
+footer ul{
+    padding: 5px; 
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+    color: rgb(250, 215, 245);
+    list-style: none; 
+}
+
+footer h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#creditos{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
