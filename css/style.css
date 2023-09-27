@@ -9,8 +9,9 @@
 /*------header------*/
 header{
     width: 100%;
+    height: 80px;
     color: #eeeeee; 
-    background-color:rgb(170, 113, 207); 
+    background-color:rgb(170, 113, 207,0.6); 
     font-family: Arial; 
     font-size: 16px; 
     margin: 1px;
@@ -18,6 +19,8 @@ header{
     display: flex;  
     justify-content: space-between; 
     align-content: center;
+    position: fixed;
+
 }
 
 .ListaInicio{
@@ -46,7 +49,7 @@ main{
     font-family: Arial; 
     font-size: 20px; 
     margin: 1px;
-    padding: 50px 20px 20px 20px;
+    padding: 80px 20px 20px 20px;
     display: flex;
     flex-direction: column; 
 }
@@ -86,13 +89,15 @@ img{
 .cartas{
     display: flex;
     flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
 }
 
 
 .carta{
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 300px;
     margin: 50px ;
 }
 
