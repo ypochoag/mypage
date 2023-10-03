@@ -13,18 +13,17 @@ header{
     background-image:url('../images/FondoArt3.png');
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 1;
  }
 
 .BarraInicio{
     width: 100%;
-    height: 15%;
+    height: 75px;
     font-size: 16px; 
     margin: 1px;
     padding: 1%;  
     display: flex;  
     justify-content: space-between; 
-    align-content: center;
+    align-items: center;
     position: fixed;
     background-color:#3a0858; 
     z-index: 1;
@@ -55,7 +54,7 @@ header{
     justify-content: left; 
 }
 
-.ListaInicio ul{
+.ListaInicio {
     color: #fffffe;
     display: flex;
     font-size: 0.813rem;
@@ -63,9 +62,10 @@ header{
     gap:1.75rem;
     line-height: 176.1%;
     font-size: 20px; 
+    align-items: center;
 }
 
-.ListaInicio ul li a{
+.ListaInicio li a{
     text-decoration: none;
     color: #f1e9e9;    
 }
@@ -74,11 +74,25 @@ header nav ul li a:hover{
     color: rgb(250, 215, 245);
 }
 
-.social-media{
+#TelefonoContacto {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    color: #fffffe;
-    margin: 1px;
-    padding-bottom: 20px;
+    gap: 5px;
+}
+
+#check{
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 50px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
 
 .presentacionInicio{
@@ -321,17 +335,52 @@ input:focus{
 
 /*-----------   Media Query -------------*/
 
-@media (max-width: 414px){
+@media (max-width: 1000px){
 
     /*------header------*/
     header{
-        background-image:url('./images/FondoArt2.png');
+        background-image:url('/images/FondoArt1.png');
      }
     
-    
-    .ListaInicio{
-        display: none;
+    .checkbtn {
+        display: block;
     }
+
+    .ListaInicio {
+        position:fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #32308f;
+        text-align: center;
+        top:78px;
+        left:100%;
+        transition: all 0.5s;
+    }
+    #check:checked ~ ul{
+        left:0%;
+        display: block;
+    }
+    .ListaInicio li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .ListaInicio li a{
+        font-size: 20px;
+    }
+
+
+    .ListaInicio ul li{
+        display:block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    #check:checked ~ .checkbtn{
+        color: #fefefe;
+    }
+
     #TelefonoContacto{
         display: none;
     }    
@@ -365,14 +414,15 @@ input:focus{
     
     #contact{
         flex-direction: column;   
-        justify-content: space-between;           
+        justify-content: space-around;           
     }
 
     .icons{
         padding:10px;
     }
     .social-media{
-        padding: 2px;
+        font-size: 20px;
+        padding: 2% 7%;
     }
 
 

@@ -1,132 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"
+      integrity="sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Mi primera web</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <section class="BarraInicio">
-            <div class="Logo">
-                <a href="index.html#home"><img src="./images/LogoYuri.png" alt="LogoYuri"></a>
-                <h1>YURI OCHOA</h1>
-            </div>
-            <nav class="ListaInicio">
-                <ul>
-                    <li><a href="index.html#home">Inicio</a></li>
-                    <li><a href="index.html#acercademi">Acerca de mi</a></li>
-                    <li><a href="index.html#work">Trabajos</a></li>
-                    <li><a href="index.html#services">Servicios</a></li>
-                    <li><a href="index.html#contact">Contacto</a></li>
-                </ul>
-            </nav>
-            <div id="TelefonoContacto">
-                <div class="social-media">
-                    <p>+57 3114699095</p> 
-                </div>   
-            </div> 
-        </section>    
-        <section id="home" class="presentacionInicio">
-            <h1>Hola, soy <span>Yuri Ochoa</span></h1>
-            <p> Desarrolladora web y <span> analista de datos</span></p>
-        </section>         
+      <section class="BarraInicio">
+        <div class="Logo">
+          <a href="index.html#home"
+            ><img src="./images/LogoYuri.png" alt="LogoYuri"
+          /></a>
+          <h1>YURI OCHOA</h1>
+        </div>
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars fa-sm" style="color: #f8e9e9"></i>
+            </label>
+            <ul class="ListaInicio">
+                <li><a href="index.html#home">Inicio</a></li>
+                <li><a href="index.html#acercademi">Acerca de mi</a></li>
+                <li><a href="index.html#work">Trabajos</a></li>
+                <li><a href="index.html#services">Servicios</a></li>
+                <li><a href="index.html#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="TelefonoContacto">
+          <a href="https://wa.me/3114699095"
+            ><i class="fa-brands fa-whatsapp fa-lg" style="color: #f8e9e9"></i
+          ></a>
+          <p>3114699095</p>
+        </div>
+      </section>
+      <section id="home" class="presentacionInicio">
+        <h1>Hola, soy <span>Yuri Ochoa</span></h1>
+        <p>Desarrolladora web y <span> analista de datos</span></p>
+      </section>
     </header>
     <main>
-        <section id="acercademi">
-            <h2>Acerca de mi</h2>
-            <div class="acercademi">
-                <p>Soy Ingeniera Industrial e Ingeniera Agricola con mas de 4 años de experiencia en gerencia y gestion de proyectos, actualmente estoy orientando mi perfil al sector de tecnología especificamente al desarrollo web, estoy aprendiendo backend con java, ademas de contar con conocimientos en python enfocado en la analitica de datos y Machine Learning. </p>
-                <img src='./images/ImgArt1.png' alt="Imagen Personal"/>
-            </div>
-        </section>
-        <section id="work" >
-            <h2>Trabajos </h2>
-            <div class="cartas">  
-                <div class="carta">
-                    <img src='./images/ImgArt2.png' alt="Imagen Paisaje"/> 
-                    <h4>Titulo 1</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque inventore aliquid repudiandae, voluptatum aut quaerat numquam nam a eius! Iure mollitia dolor possimus nostrum, at accusantium in impedit consectetur ex.</p>
-                    <a href="index.html#home">Leer mas</a>
-                </div>
-                <div class="carta">
-                    <img src='./images/ImgArt5.png' alt="Imagen Paisaje"/> 
-                    <h4>Titulo 2</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In dolores facere pariatur a vel illo, quidem tempore libero unde aspernatur. Harum odit perferendis ipsa illum deleniti similique mollitia, optio ad.</p>
-                    <a href="index.html#home">Leer mas</a>
-                </div>
-                <div class="carta">
-                    <img src='./images/ImgArt4.png' alt="Imagen Paisaje"/> 
-                    <h4>Titulo 2</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In dolores facere pariatur a vel illo, quidem tempore libero unde aspernatur. Harum odit perferendis ipsa illum deleniti similique mollitia, optio ad.</p>
-                    <a href="index.html#home">Leer mas</a>
-                </div>
-            </div>
-        </section>
-        <section id="services" >
-            <h2>Servicios </h2>
-            <div class="cartasServicios">  
-                <div class="cartaServicio">
-                    <img src='./images/ImgArt2.png' alt="Imagen Paisaje"/> 
-                    <h4>Titulo 1</h4>
-                </div>
-                <div class="cartaServicio">
-                    <img src='./images/ImgArt5.png' alt="Imagen Paisaje"/> 
-                    <h4>Titulo 2</h4>
-                </div>
-                <div class="cartaServicio">
-                    <img src='./images/ImgArt4.png' alt="Imagen Paisaje"/> 
-                    <h4>Titulo 3</h4>
-                </div>
-                <div class="cartaServicio">
-                    <img src='./images/ImgArt4.png' alt="Imagen Paisaje"/> 
-                    <h4>Titulo 4</h4>
-                </div>
-                <div class="cartaServicio">
-                    <img src='./images/ImgArt2.png' alt="Imagen Paisaje"/> 
-                    <h4>Titulo 1</h4>
-                </div>
-                <div class="cartaServicio">
-                    <img src='./images/ImgArt5.png' alt="Imagen Paisaje"/> 
-                    <h4>Titulo 2</h4>
-                </div>
-            </div>
-        </section>        
+      <section id="acercademi">
+        <h2>Acerca de mi</h2>
+        <div class="acercademi">
+          <p>
+            Soy Ingeniera Industrial e Ingeniera Agricola con mas de 4 años de
+            experiencia en gerencia y gestion de proyectos, actualmente estoy
+            orientando mi perfil al sector de tecnología especificamente al
+            desarrollo web, estoy aprendiendo backend con java, ademas de contar
+            con conocimientos en python enfocado en la analitica de datos y
+            Machine Learning.
+          </p>
+          <img src="./images/ImgArt1.png" alt="Imagen Personal" />
+        </div>
+      </section>
+      <section id="work">
+        <h2>Trabajos</h2>
+        <div class="cartas">
+          <div class="carta">
+            <img src="./images/ImgArt2.png" alt="Imagen Paisaje" />
+            <h4>Titulo 1</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Doloremque inventore aliquid repudiandae, voluptatum aut quaerat
+              numquam nam a eius! Iure mollitia dolor possimus nostrum, at
+              accusantium in impedit consectetur ex.
+            </p>
+            <a href="index.html#home">Leer mas</a>
+          </div>
+          <div class="carta">
+            <img src="./images/ImgArt5.png" alt="Imagen Paisaje" />
+            <h4>Titulo 2</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+              dolores facere pariatur a vel illo, quidem tempore libero unde
+              aspernatur. Harum odit perferendis ipsa illum deleniti similique
+              mollitia, optio ad.
+            </p>
+            <a href="index.html#home">Leer mas</a>
+          </div>
+          <div class="carta">
+            <img src="./images/ImgArt4.png" alt="Imagen Paisaje" />
+            <h4>Titulo 2</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+              dolores facere pariatur a vel illo, quidem tempore libero unde
+              aspernatur. Harum odit perferendis ipsa illum deleniti similique
+              mollitia, optio ad.
+            </p>
+            <a href="index.html#home">Leer mas</a>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <h2>Servicios</h2>
+        <div class="cartasServicios">
+          <div class="cartaServicio">
+            <img src="./images/ImgArt2.png" alt="Imagen Paisaje" />
+            <h4>Titulo 1</h4>
+          </div>
+          <div class="cartaServicio">
+            <img src="./images/ImgArt5.png" alt="Imagen Paisaje" />
+            <h4>Titulo 2</h4>
+          </div>
+          <div class="cartaServicio">
+            <img src="./images/ImgArt4.png" alt="Imagen Paisaje" />
+            <h4>Titulo 3</h4>
+          </div>
+          <div class="cartaServicio">
+            <img src="./images/ImgArt4.png" alt="Imagen Paisaje" />
+            <h4>Titulo 4</h4>
+          </div>
+          <div class="cartaServicio">
+            <img src="./images/ImgArt2.png" alt="Imagen Paisaje" />
+            <h4>Titulo 1</h4>
+          </div>
+          <div class="cartaServicio">
+            <img src="./images/ImgArt5.png" alt="Imagen Paisaje" />
+            <h4>Titulo 2</h4>
+          </div>
+        </div>
+      </section>
     </main>
     <footer id="contact">
-            <section class="go">
-                <form action="/registro" method="POST">     
-                    <input type="email" name="email" placeholder="Update in your inbox..." required>                       
-                    <button id="button-go" type="submit">Go</button>
-                </form>
-            </section>
-            <div class="iconosylogo">
-                <seccion class="icons">
-                    <div class="social-media">
-                        <a href="https://www.linkedin.com/in/ypochoag/"><img src="./images/icon-facebook 1.png" alt="facebook-icon"></a>
-                    </div>
-                    <div class="social-media">
-                        <a href="https://www.instagram.com/yuri8ag/"><img src="./images/icon-instagram 1.png" alt="youtube-icon"></a>
-                    </div>
-                    <div class="social-media">
-                        <a href="hhttps://github.com/ypochoag"><img src="./images/icon-twitter.png" alt="twitter-icon"></a>
-                    </div>
-                    <div class="social-media">
-                        <a href="https://wa.me/3114699095"><img src="./images/icon-pinterest 1.png" alt="pinterest-icon"></a>
-                    </div>
-                    <div class="social-media">
-                        <a href="ypochoag@gmail.com"><img src="./images/icon-instagram 1.png" alt="instagram-icon"></a>
-                    </div>
-                </seccion>
-            </div>
-        </section>
-        <section>
-            <p id="copyright">
-                Creado por Yuri Ochoa
-            </p>
-        </section>
+      <section class="go">
+        <form action="/registro" method="POST">
+          <input
+            type="email"
+            name="email"
+            placeholder="Update in your inbox..."
+            required
+          />
+          <button id="button-go" type="submit">Go</button>
+        </form>
+      </section>
+      <div class="iconosylogo">
+        <seccion class="icons">
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/ypochoag/"
+              ><i class="fa-brands fa-linkedin fa-lg" style="color: #ffffff"></i
+            ></a>
+          </div>
+          <div class="social-media">
+            <a href="https://www.instagram.com/yuri8ag/"
+              ><i
+                class="fa-brands fa-instagram fa-lg"
+                style="color: #ffffff"
+              ></i
+            ></a>
+          </div>
+          <div class="social-media">
+            <a href="https://github.com/ypochoag"
+              ><i class="fa-brands fa-github fa-lg" style="color: #ffffff"></i
+            ></a>
+          </div>
+          <div class="social-media">
+            <a href="https://wa.me/3114699095"
+              ><i class="fa-brands fa-whatsapp fa-lg" style="color: #ffffff"></i
+            ></a>
+          </div>
+          <div class="social-media">
+            <a href="mailto:ypochoag@gmail.com"
+              ><i class="fa-regular fa-at fa-lg" style="color: #ffffff"></i
+            ></a>
+          </div>
+        </seccion>
+      </div>
+      <section>
+        <p id="copyright">Creado por Yuri Ochoa</p>
+      </section>
     </footer>
-</body>
+  </body>
 </html>
-
