@@ -339,7 +339,7 @@ input:focus{
 
     /*------header------*/
     header{
-        background-image:url('./images/FondoArt1.png');
+        background-image:url('../images/FondoArt1.png');
      }
     
     .checkbtn {
