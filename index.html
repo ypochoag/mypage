@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="/scripts/script.js"></script>
+    <script src="/scripts/script.js" defer></script>
     <link
-      rel="stylesheet"
+      rel="stylesheet"g
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"
       integrity="sha512-KOWhIs2d8WrPgR4lTaFgxI35LLOp5PRki/DxQvb7mlP29YZ5iJ5v8tiLWF7JLk5nDBlgPP1gHzw96cZ77oD7zQ=="
       crossorigin="anonymous"
@@ -28,19 +28,21 @@
             <label for="check" class="checkbtn">
                 <i class="fa-solid fa-bars fa-sm" style="color: #f8e9e9"></i>
             </label>
-            <ul class="ListaInicio">
-                <li><a href="index.html#home">Inicio</a></li>
-                <li><a href="index.html#acercademi">Acerca de mi</a></li>
-                <li><a href="index.html#work">Trabajos</a></li>
-                <li><a href="index.html#services">Servicios</a></li>
-                <li><a href="index.html#contact">Contacto</a></li>
-            </ul>
+            <nav class="navbar">   
+              <ul class="ListaInicio">
+                  <li><a href="index.html#home">Inicio</a></li>
+                  <li><a href="index.html#acercademi">Acerca de mi</a></li>
+                  <li><a href="index.html#services">Servicios</a></li>
+                  <li><a href="index.html#work">Trabajos</a></li>
+                  <li><a href="index.html#estudios">Estudios</a></li>
+                  <li><a href="index.html#contact">Contacto</a></li>
+              </ul>
+            </nav> 
         </nav>
         <div id="TelefonoContacto">
           <a href="https://wa.me/3114699095"
             ><i class="fa-brands fa-whatsapp fa-lg" style="color: #f8e9e9"></i
-          ></a>
-          <p>3114699095</p>
+          ><p>3114699095</p></a>         
         </div>
       </section>
       <section id="home" class="presentacionInicio">
@@ -63,82 +65,144 @@
           <img src="./images/ImgArt1.png" alt="Imagen Personal" />
         </div>
       </section>
-      <section id="work">
-        <h2>Trabajos</h2>
-        <div class="cartas">
-          <div class="carta">
-            <img src="./images/ImgArt2.png" alt="Imagen Paisaje" />
-            <h4>Titulo 1</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Doloremque inventore aliquid repudiandae, voluptatum aut quaerat
-              numquam nam a eius! Iure mollitia dolor possimus nostrum, at
-              accusantium in impedit consectetur ex.
-            </p>
-            <a href="index.html#home">Leer mas</a>
-          </div>
-          <div class="carta">
-            <img src="./images/ImgArt5.png" alt="Imagen Paisaje" />
-            <h4>Titulo 2</h4>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
-              dolores facere pariatur a vel illo, quidem tempore libero unde
-              aspernatur. Harum odit perferendis ipsa illum deleniti similique
-              mollitia, optio ad.
-            </p>
-            <a href="index.html#home">Leer mas</a>
-          </div>
-          <div class="carta">
-            <img src="./images/ImgArt4.png" alt="Imagen Paisaje" />
-            <h4>Titulo 2</h4>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
-              dolores facere pariatur a vel illo, quidem tempore libero unde
-              aspernatur. Harum odit perferendis ipsa illum deleniti similique
-              mollitia, optio ad.
-            </p>
-            <a href="index.html#home">Leer mas</a>
-          </div>
-        </div>
-      </section>
       <section id="services">
         <h2>Servicios</h2>
         <div class="cartasServicios">
           <div class="cartaServicio">
-            <img src="./images/ImgArt2.png" alt="Imagen Paisaje" />
-            <h4>Titulo 1</h4>
+            <a href="index.html#home"
+            ><i class="fa-solid fa-code fa-2xl" style="color: #ebebeb;"></i>
+            </a>  
+            <h4>Desarrollo web</h4>
           </div>
           <div class="cartaServicio">
-            <img src="./images/ImgArt5.png" alt="Imagen Paisaje" />
-            <h4>Titulo 2</h4>
+            <a href="index.html#home"
+            ><i class="fa-solid fa-diagram-project fa-2xl" style="color:#ebebeb;"></i>
+            </a>
+            <h4>Gestión de proyectos</h4>
           </div>
           <div class="cartaServicio">
-            <img src="./images/ImgArt4.png" alt="Imagen Paisaje" />
-            <h4>Titulo 3</h4>
+            <a href="index.html#home"
+            ><i class="fa-solid fa-chart-simple fa-2xl" style="color: #ebebeb;"></i>
+            </a>
+            <h4>Análisis de datos</h4>
           </div>
           <div class="cartaServicio">
-            <img src="./images/ImgArt4.png" alt="Imagen Paisaje" />
-            <h4>Titulo 4</h4>
+            <a href="index.html#home"
+            ><i class="fa-solid fa-wand-magic-sparkles fa-2xl" style="color: #ebebeb;"></i>
+            </a>
+            <h4>Diseño de productos</h4>
           </div>
-          <div class="cartaServicio">
-            <img src="./images/ImgArt2.png" alt="Imagen Paisaje" />
-            <h4>Titulo 1</h4>
+        </div>
+      </section>
+      <section id="work">
+        <h2>Trabajos</h2>
+        <div class="cartas">
+          <div class="carta">
+            <img src="./images/Fedecacao.jpeg" alt="Planta Cacao" />
+            <h4>Supervisora Técnica Nacional</h4>
+            <p>
+              Fortalecí relacionesinterinstitucionales, gestioné recursosy detecté necesidades sectoriales.
+            </p>
+            <a href="index.html#home">Leer mas</a>
           </div>
-          <div class="cartaServicio">
-            <img src="./images/ImgArt5.png" alt="Imagen Paisaje" />
-            <h4>Titulo 2</h4>
+          <div class="carta">
+            <img src="./images/Fedepanela.jpeg" alt="grupo Fedepanela" />
+            <h4>Profesional de apoyo en la coordinación</h4>
+            <p>
+              Optimicé recursos para alcanzar másbeneficiarios con un presupuestolimitado. Realicé análisis financierosbasado en datos para toma dedecisiones.
+            </p>
+            <a href="index.html#home">Leer mas</a>
+          </div>
+        </div>
+      </section>
+      <section id="estudios">
+        <h2>Estudios</h2>
+        <div class="cartasEstudios">
+          <div class="cartaEstudio">
+            <a href="index.html#home"
+            ><i class="fa-solid fa-laptop-code fa-2xl" style="color: #ffffff;"></i>
+            </a>
+            <h4>CERTIFIED TECH DEVELOPER</h4>
+            <p>Digital House</p>
+            <p>2023 - Actualmente</p>
+          </div>
+          <div class="cartaEstudio">
+            <a href="index.html#home"
+            ><i class="fa-brands fa-java fa-2xl" style="color: #f5f5f5;"></i>
+            </a>
+            <h4>BACKEND CON JAVA</h4>
+            <p>Egg</p>
+            <p>2023 - Actualmente</p>
+          </div>
+
+          <div class="cartaEstudio">
+            <a href="index.html#home"
+            ><i class="fa-brands fa-python fa-2xl" style="color: #f2f2f2;"></i>
+            </a>
+            <h4>MACHINE LEARNING & DATA SCIENCE</h4>
+            <p>Universidad Nacional de Colombia</p>
+            <p>2020</p>
+          </div>
+        </div>
+        <div class="cartasEstudios">
+          <div class="cartaEstudio">
+            <a href="index.html#home"
+            ><i class="fa-solid fa-robot fa-2xl" style="color: #fcfcfc;"></i>
+            </a>
+            <h4>INGENIERA INDUSTRIAL</h4>
+            <p>Universidad Nacional Abierta y a Distancia</p>
+            <p>2018 - 2022</p>
+          </div>
+          <div class="cartaEstudio">
+            <a href="index.html#home"
+            ><i class="fa-solid fa-seedling fa-2xl" style="color: #e6e6e6;"></i>
+            </a>
+            <h4>INGENIERA AGRICOLA</h4>
+            <p>Universidad Nacional de Colombia</p>
+            <p>2011 - 2027</p>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contacto</h2>
+        <div class="boxContacto">
+          <div class="boxFormulario">
+            <p><em>¡Enviame tu consulta!</em></p>
+            <form action="" method="get" class="formulario">
+              <div class="form-row">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" />
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="pepe@gmail.com"
+                  required
+                />
+              </div>
+              <div class="form-row">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+              </div>
+              <div class="form-row">
+                <button>Enviar</button>
+              </div>
+              <p class="alertas" id="alertas"></p>
+            </form>
           </div>
         </div>
       </section>
     </main>
-    <footer id="contact">
+    <footer>
       <section class="go">
         <form action="/registro" method="POST">
           <input
             type="email"
             name="email"
             placeholder="Update in your inbox..."
-            required
           />
           <button id="button-go" type="submit">Go</button>
         </form>
