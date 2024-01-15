@@ -1,2 +1,1 @@
-***My page***
- Enlace https://ypochoag.github.io/mypage/
+Mi pagina https://ypochoag.github.io/mypage/
